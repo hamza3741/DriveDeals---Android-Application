@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_height="match_parent"
+        tools:context=".DealershipHome">
+
+<RelativeLayout
+    android:background="#0012BD"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+    <ImageView
+        android:id="@+id/arrow_back22"
+        android:layout_width="40dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:tint="@color/white"
+        android:contentDescription="Back Arrow"
+        android:src="@drawable/arrow_back" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="#0012BD"
+        android:text="Dealerships"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+       />
+
+</RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp">
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="336dp"
+            android:layout_height="259dp"
+            app:srcCompat="@drawable/dealership1" />
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="180dp"
+            android:layout_height="46dp"
+            android:layout_below="@+id/imageView4"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Brand"
+            android:inputType="text"
+            android:textColorHint="#0012BD" />
+
+        <EditText
+            android:id="@+id/LocationText"
+            android:layout_width="180dp"
+            android:layout_height="46dp"
+            android:layout_below="@+id/editTextText"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Location"
+            android:inputType="text"
+            android:textColorHint="#0012BD" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="165dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/LocationText"
+            android:backgroundTint="#0012BD"
+            android:textColor="@color/white"
+            android:text="Find"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+
+
+
+</LinearLayout>
